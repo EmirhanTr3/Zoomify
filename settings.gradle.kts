@@ -18,8 +18,8 @@ extensions.configure<StonecutterSettings> {
     kotlinController = true
     centralScript = "build.gradle.kts"
     shared {
-        versions("1.20.1", "1.20.4", "1.20.6", "1.21")
-        vcsVersion = "1.21"
+        versions("1.21.1")
+        vcsVersion = "1.21.1"
     }
     create(rootProject)
 }
